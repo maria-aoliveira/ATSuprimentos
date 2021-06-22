@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://dbjava.c4be9stjw4qu.sa-east-1.rds.amazonaws.com/produto?useTimezone=true&serverTimezone=UTC
+    username: admin
+    password: 123456789
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+  application:
+    name: produto
+ 
+server:
+  port: 8080
+  error:
+    include-stacktrace: on-param
+    
+amazonProperties: 
+  endpointUrl: https://s3.sa-east-1.amazonaws.com 
+  accessKey: AKIAR5N74G4ZTASKZH7T
+  secretKey: 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
+  bucketName: dr4-maria-s3-bucket    
+    
+    

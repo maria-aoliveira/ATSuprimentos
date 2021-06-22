@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://dbjava.c4be9stjw4qu.sa-east-1.rds.amazonaws.com/cotacao?useTimezone=true&serverTimezone=UTC
+    username: admin
+    password: 123456789
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+  application:
+    name: cotacao
+    
+server:
+  port: 8081
+  error:
+    include-stacktrace: on-param
